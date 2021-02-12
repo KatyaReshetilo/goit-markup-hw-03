@@ -7,6 +7,7 @@
   --our-team-background: #f5f4fa;
   --hero-background: #2f303a;
   --border-color: #eeeeee;
+  --line: #ececec;
 }
 
 /* общие стили */
@@ -43,6 +44,7 @@ h1 {
 
 .main-head {
   background-color: var(--main-header);
+  border-bottom: 1px solid var(--line);
 }
 
 .logo {
@@ -112,12 +114,10 @@ h1 {
 }
 
 /* подвал */
-.main-footer .container {
-  padding-bottom: 60px;
-}
 
 .main-footer {
   background-color: var(--hero-background);
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -161,9 +161,6 @@ h1 {
 .hero {
   background-color: var(--hero-background);
   text-align: center;
-}
-
-.hero .container {
   min-height: 600px;
   padding-top: 200px;
 }
@@ -194,7 +191,7 @@ h1 {
 }
 
 /* Секция особенности */
-.features .container {
+.features {
   padding-top: 94px;
 }
 
@@ -237,7 +234,7 @@ h1 {
 }
 
 /* Секция Чем мы занимаемся */
-.directions .container {
+.directions {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -268,13 +265,10 @@ h1 {
 
 /* Секция Наша команда */
 
-.team .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .team {
   background-color: var(--our-team-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-head {
@@ -322,7 +316,7 @@ h1 {
 }
 
 /* Портофолио */
-.portfolio .container {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -380,11 +374,8 @@ h1 {
 }
 
 .example-head {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -394,12 +385,14 @@ h1 {
 
 .example-type {
   margin-top: 0;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-color);
+}
+
+.example-name {
+  padding: 20px 24px;
 }
