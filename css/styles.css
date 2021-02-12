@@ -375,6 +375,7 @@ h1 {
 .example {
   width: calc((100% - 90px) / 3);
   margin: 15px;
+  border: 1px solid var(--border-color);
 }
 
 .example-head {
