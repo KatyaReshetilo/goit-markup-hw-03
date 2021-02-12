@@ -239,6 +239,7 @@ h1 {
 /* Секция Чем мы занимаемся */
 .directions .container {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .directions-list {
@@ -268,7 +269,7 @@ h1 {
 /* Секция Наша команда */
 
 .team .container {
-  padding-top: 188px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
